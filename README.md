@@ -14,4 +14,5 @@ https://www.figma.com/file/0xmu9mj2TJYoIOubBFWsk5/dtmoney-Ignite-(Copy)?node-id=
     - organização
     - css (animação, variáveis, boas práticas )
     - responsividade ( uso de rem no estilo global )
-    
+  - Consumir API (sem back-end)
+    - Ferramentas (JsonServer / MirageJS)
