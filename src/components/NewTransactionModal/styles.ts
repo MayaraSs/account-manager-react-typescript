@@ -1,5 +1,4 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
-  background: var(--blue);
+export const Container = styled.form`
 `
