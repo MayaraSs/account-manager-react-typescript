@@ -46,6 +46,7 @@ export function NewTransactionModal( {isOpen, onRequestClose}: Props){
             type="button"
             isActive={type === 'deposit'}
             onClick={() => {setType('deposit')}}
+            activeColor="green"
           >
             <img src={incomeImg} alt="Entrada" />
           </RadioBox>
@@ -54,6 +55,7 @@ export function NewTransactionModal( {isOpen, onRequestClose}: Props){
             type="button"
             isActive={type === 'withdraw'}
             onClick={() => {setType('withdraw')}}
+            activeColor="red"
           >
             <img src={outcomeImg} alt="Saída" />
           </RadioBox>
